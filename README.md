@@ -6,15 +6,25 @@ Which tool is most sensitive towards divergent sequences? To answer this questio
 
 ## Aligners and settings
 
-The sequences were aligned using the three aligners using versions and parameters described below:
+The sequences were aligned using the three aligners:
 
 | Tool | Source | Version | Params |
 |-----|-------|------|------|
-| lastz | [![Anaconda-Server Badge](https://anaconda.org/bioconda/lastz/badges/version.svg)](https://anaconda.org/bioconda/lastz) | 1.04.22 | defaults |
-| minimap2 | [![Anaconda-Server Badge](https://anaconda.org/bioconda/minimap2/badges/version.svg)](https://anaconda.org/bioconda/minimap2) | 2.28 | `-x asm20` |
-| fastga | https://github.com/thegenemyers/FASTGA | [170a178](https://github.com/thegenemyers/FASTGA/tree/170a178d16720b57cf33125ba3c904090bde4121) | `-i.6` |
+| `lastz` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/lastz/badges/version.svg)](https://anaconda.org/bioconda/lastz) | 1.04.22 | defaults |
+| `minimap2` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/minimap2/badges/version.svg)](https://anaconda.org/bioconda/minimap2) | 2.28 | `-x asm20` |
+| `fastga` | https://github.com/thegenemyers/FASTGA | [170a178](https://github.com/thegenemyers/FASTGA/tree/170a178d16720b57cf33125ba3c904090bde4121) | `-i.6` |
+
+`lastz` and `minimap2` alignmnets between simulated sequecnes were generated using Galaxy and can be found in this history: https://usegalaxy.org/u/cartman/h/simulated-runs. `fastga` alignments were computed using a local machine. Results are found in this repo:
+
+- 
+
 
 ## Results
 
 ![image](https://github.com/user-attachments/assets/45bb4fdf-94f0-4437-8e34-32d19cdc9f41)
+
+- X-axis = divergence bins from 60% to 100% identity
+- Y-axis = fraction of the simulated sequence covered by alignments produced with that aligner
+- Rows correspond to sequence lengths: 1kb, 2kb, 5kb, and 10kb
+
 
