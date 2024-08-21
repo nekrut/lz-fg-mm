@@ -16,8 +16,10 @@ The sequences were aligned using the three aligners:
 
 `lastz` and `minimap2` alignmnets between simulated sequecnes were generated using Galaxy and can be found in this history: https://usegalaxy.org/u/cartman/h/simulated-runs. `fastga` alignments were computed using a local machine. Results are found in this repo:
 
-- 
-
+- `./sequences/` = simulated data. Produced using `./ipynb/generate_apples_and_oranges.ipynb`
+- `./ipynb/` = notebooks
+- `./alignments/` = results produced by the three aligners
+- `./scratch` = well ... scratch
 
 ## Results
 
