@@ -58,7 +58,7 @@ Postprocessing was performed using https://usegalaxy.org/u/cartman/w/cdsoverlaps
 
 Briefly, the workflow performs the following steps:
 
-1. Re-formats files to generates a 3-column bed file containing only coordinates of alignment blocks
+1. Re-formats files to generate a 3-column bed file containing only coordinates of alignment blocks
 2. The intervals in these files are merged using `bedtools merge` to remove redundancy. The final result is the list of non-overlapping unique intervals for each aligner.  
 3. A bed file containing coordinates of all protein-coding exons for hg38 (5'- and 3'-UTRs are stripped) is fetched from the UCSC Table Browser and also merged using `bedtools merge`.
 4. Coordinates of alignments from each tools are then projected to coordinates of exons using `bedtools annotate`.
