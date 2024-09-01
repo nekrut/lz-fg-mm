@@ -40,7 +40,7 @@ Genome files were downloaded from UCSC:
 - hg38 = https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz
 - mm39 = https://hgdownload.soe.ucsc.edu/goldenPath/mm39/bigZips/mm39.fa.gz
 
-We used the same version of `minimap2` as specified above. Instead of `lastz` we used `kegalign` release [v0.1.2.7](https://github.com/galaxyproject/KegAlign/releases/tag/v0.1.2.7). For fastga** we used repo version `74d5666`. The following command line parameters were used:
+We used the same version of `minimap2` as specified above. Instead of `lastz` we used `kegalign` release [v0.1.2.7](https://github.com/galaxyproject/KegAlign/releases/tag/v0.1.2.7). For `fastga` we used repo version `74d5666`. The following command line parameters were used:
 
 | Tool | cmd |
 |------|-----|
