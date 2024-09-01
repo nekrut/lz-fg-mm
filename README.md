@@ -48,6 +48,8 @@ We used the same version of `minimap2` as specified above. Instead of `lastz` we
 | `minimap2` | `-x asm20  --q-occ-frac 0.01 -Q --cs=long` |
 | `fastga` | `-i.6` |
 
+Resulting datasets were uloaded and analyzed in the following Galaxy history: https://usegalaxy.org/u/cartman/h/aligners--exons
+
 ### Post-processing
 
 Postprocessing was performed using https://usegalaxy.org/u/cartman/w/cdsoverlaps workflow:
