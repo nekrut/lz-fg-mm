@@ -52,7 +52,7 @@ We used the same version of `minimap2` as specified above. Instead of `lastz` we
 | `last-train` | `last-train -P24 --revsym -C2 humdb mm39.fa.gz > hm.train` | 
 | `lastal` | `lastal -P24 -C2 -f BlastTab -p hm.train humdb mm39.fa.gz > hm.tab` | 
 
-Resulting datasets were uloaded and analyzed in the following Galaxy history: [https://usegalaxy.org/u/cartman/h/aligners--exons](https://usegalaxy.org/u/cartman/h/fg-mm2-lz-lt-comparison)
+Resulting datasets were uloaded and analyzed in the following Galaxy history: https://usegalaxy.org/u/cartman/h/fg-mm2-lz-lt-comparison
 
 ### Post-processing
 
