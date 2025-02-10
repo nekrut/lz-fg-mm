@@ -13,12 +13,13 @@ The sequences were aligned using the three aligners:
 | `lastz` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/lastz/badges/version.svg)](https://anaconda.org/bioconda/lastz) | 1.04.22 | defaults |
 | `minimap2` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/minimap2/badges/version.svg)](https://anaconda.org/bioconda/minimap2) | 2.28 | `-x asm20` |
 | `fastga` | https://github.com/thegenemyers/FASTGA | [170a178](https://github.com/thegenemyers/FASTGA/tree/170a178d16720b57cf33125ba3c904090bde4121) | `-i.6` |
+| `last` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/last/badges/version.svg)](https://anaconda.org/bioconda/last) | 1608 | Human/chimp parames described in [Cookbook](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-cookbook.rst) |
 
-`lastz` and `minimap2` alignments between simulated sequences were generated using Galaxy and can be found in this history: https://usegalaxy.org/u/cartman/h/simulated-runs. `fastga` alignments were computed using a local machine. Results are found in this repo:
+`lastz` and `minimap2` alignments between simulated sequences were generated using Galaxy and can be found in this history: https://usegalaxy.org/u/cartman/h/simulated-runs. `fastga` and `last` alignments were computed using a local machine. Results are found in this repo:
 
 - `./sequences/` = simulated data. Produced using `./ipynb/generate_apples_and_oranges.ipynb`
 - `./ipynb/` = notebooks
-- `./alignments/` = results produced by the three aligners
+- `./alignments/` = results produced by the four aligners
 - `./scratch` = well ... scratch
 
 ### Results
@@ -51,7 +52,7 @@ We used the same version of `minimap2` as specified above. Instead of `lastz` we
 | `last-train` | `last-train -P24 --revsym -C2 humdb mm39.fa.gz > hm.train` | 
 | `lastal` | `lastal -P24 -C2 -f BlastTab -p hm.train humdb mm39.fa.gz > hm.tab` | 
 
-Resulting datasets were uloaded and analyzed in the following Galaxy history: https://usegalaxy.org/u/cartman/h/aligners--exons
+Resulting datasets were uloaded and analyzed in the following Galaxy history: [https://usegalaxy.org/u/cartman/h/aligners--exons](https://usegalaxy.org/u/cartman/h/fg-mm2-lz-lt-comparison)
 
 ### Post-processing
 
