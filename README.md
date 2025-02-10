@@ -13,7 +13,7 @@ The sequences were aligned using the three aligners:
 | `lastz` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/lastz/badges/version.svg)](https://anaconda.org/bioconda/lastz) | 1.04.22 | defaults |
 | `minimap2` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/minimap2/badges/version.svg)](https://anaconda.org/bioconda/minimap2) | 2.28 | `-x asm20` |
 | `fastga` | https://github.com/thegenemyers/FASTGA | [170a178](https://github.com/thegenemyers/FASTGA/tree/170a178d16720b57cf33125ba3c904090bde4121) | `-i.6` |
-| `last` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/last/badges/version.svg)](https://anaconda.org/bioconda/last) | 1608 | Human/chimp parames described in [Cookbook](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-cookbook.rst) |
+| `last` | [![Anaconda-Server Badge](https://anaconda.org/bioconda/last/badges/version.svg)](https://anaconda.org/bioconda/last) | 1608 | Human/chimp parameters described in [Cookbook](https://gitlab.com/mcfrith/last/-/blob/main/doc/last-cookbook.rst) |
 
 `lastz` and `minimap2` alignments between simulated sequences were generated using Galaxy and can be found in this history: https://usegalaxy.org/u/cartman/h/simulated-runs. `fastga` and `last` alignments were computed using a local machine. Results are found in this repo:
 
