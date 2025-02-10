@@ -24,7 +24,7 @@ The sequences were aligned using the three aligners:
 
 ### Results
 
-![image](https://github.com/user-attachments/assets/45bb4fdf-94f0-4437-8e34-32d19cdc9f41)
+![image](https://github.com/user-attachments/assets/6fbb3073-865a-45f5-b219-15c38a04cb68)
 
 - X-axis = divergence bins from 60% to 100% identity
 - Y-axis = fraction of the simulated sequence covered by alignments produced with that aligner
