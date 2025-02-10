@@ -1,4 +1,4 @@
-# `lastz` versus `minimap2` versus `fastga`
+# `lastz` versus `minimap2` versus `fastga` versus `last`
 
 ## On simulated data
 
