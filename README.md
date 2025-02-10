@@ -47,6 +47,9 @@ We used the same version of `minimap2` as specified above. Instead of `lastz` we
 | `kegalign` | lastz defaults |
 | `minimap2` | `-x asm20  --q-occ-frac 0.01 -Q --cs=long` |
 | `fastga` | `-i.6` |
+| `lastdb` | `lastdb -P24 -uRY128 humdb hg38.fa.gz` |
+| `last-train` | `last-train -P24 --revsym -C2 humdb mm39.fa.gz > hm.train` | 
+| `lastal` | `lastal -P24 -C2 -f BlastTab -p hm.train humdb mm39.fa.gz > hm.tab` | 
 
 Resulting datasets were uloaded and analyzed in the following Galaxy history: https://usegalaxy.org/u/cartman/h/aligners--exons
 
