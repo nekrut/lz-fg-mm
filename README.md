@@ -57,11 +57,11 @@ Resulting datasets were uloaded and analyzed in the following Galaxy history: ht
 
 Postprocessing was performed using https://usegalaxy.org/u/cartman/w/cdsoverlaps workflow:
 
-![image](https://github.com/user-attachments/assets/a58d7d67-6784-42bf-99a9-f8babc1d8c8d)
+![image](https://github.com/user-attachments/assets/4acc4cde-881f-4330-92cb-37e81968a780)
 
 Briefly, the workflow performs the following steps:
 
-1. Re-formats files to generate a 3-column bed file containing only coordinates of alignment blocks
+1. Re-formats files to generate bed datasets containing only coordinates of alignment blocks
 2. The intervals in these files are merged using `bedtools merge` to remove redundancy. The final result is the list of non-overlapping unique intervals for each aligner.  
 3. A bed file containing coordinates of all protein-coding exons for hg38 (5'- and 3'-UTRs are stripped) is fetched from the UCSC Table Browser and also merged using `bedtools merge`.
 4. Coordinates of alignments from each tools are then projected to coordinates of exons using `bedtools annotate`.
@@ -70,7 +70,7 @@ Briefly, the workflow performs the following steps:
 
 ### Results
 
-![image](https://github.com/user-attachments/assets/7e2ee669-f132-410b-9d84-583ee9a7e819)
+![image](https://github.com/user-attachments/assets/4240a830-c585-4ec7-9bec-2c51258df01a)
 
 Fraction of human protein-coding exons (hg38) overlapping with alignments to mouse genome (mm39) produced by each of the three mappers. Coordinates of exons and alignment blocks were merged to avoid redundancy. 
 
